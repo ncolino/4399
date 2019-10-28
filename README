@@ -205,7 +205,7 @@ Subnet - 4399-API
 Network interfaces
 Primary IP - 192.168.1.170
 Advanced Details
-User data - https://github.com/secobau/4399/blob/api/README.md
+User data - https://github.com/colinoetb/4399/blob/api/README.md
 Step 4: Add Storage - 8
 Step 5: Add Tags - Add tag - Name - 4399-API
 Step 6: Configure Security Group - Select an existing security group
