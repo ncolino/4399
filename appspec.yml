@@ -3,3 +3,8 @@ os: linux
 files:
   - source: source
     destination: /usr/share/nginx/html
+hooks:
+  BeforeInstall:
+    - location: scripts/Renombra.sh    
+      timeout: 300
+      runas: root
