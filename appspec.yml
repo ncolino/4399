@@ -3,6 +3,8 @@ os: linux
 files:
   - source: source
     destination: /usr/share/nginx/html
+  - source: config/nginx.conf
+    destination: /etc/nginx/nginx.conf
 hooks:
   BeforeInstall:
     - location: scripts/Renombra.sh    
